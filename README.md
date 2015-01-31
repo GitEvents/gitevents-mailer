@@ -67,6 +67,7 @@ Send method may contain some parameters that they aren't often used, however we 
 ## Renderer API plugin
 
 Any __render__ plugin module must export a function which must receive the next parameters:
+
 1. `htmlTemplate {String}`: A string with the HTML version of the template to render.
 2. `textTemplate {String}`: A string with the plain text version of the template to render.
 3. `locals {Object}`: An object which contains the template variables values to use as default none are needed then `null`.
