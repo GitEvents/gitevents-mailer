@@ -18,7 +18,7 @@ To contribute to discuss the specification and APIs, go to the specific issue
 
 ## Specification
 
-- Implement a core without lock in to any email provider nor template library which fulfil [gitevents](https://github.com/GitEvents/gitevents) needs.
+- Implement a core without lock in any specific email provider nor template library which fulfil [gitevents](https://github.com/GitEvents/gitevents) needs.
 - Send mass emails to subscribers (e.g. newsletters).
 - Support different template engines, we call them renders.
 - Support different email providers, we call them mailers; each provider must transform option parameters to the expected format and passing its expected parameters.
@@ -36,7 +36,7 @@ The module API must fulfil the [gitevents](https://github.com/GitEvents/gitevent
 
 The first approach that we've thought is exporting a function which receive an options object, then it returns something that we have to define if it's a function or an object.
 
-For this module we've thought that options object should have as a required options:
+For this module we've thought that options object should have as required options:
 * mailer: The mailer module which implement the [Mailer API plugin](#mailer-api-plugin)
 * renderer: The renderer module which implement the [Renderer API plugin](#renderer-api-plugin)
 
