@@ -14,10 +14,10 @@
     "gitup-mailer"
   ],
   "author": "Ivan Fraixedes <ivan@fraixed.es> (http://ivan.fraixed.es",
-  "contributors": [{ 
+  "contributors": [{
     "name" : "Gajjar Gaurav",
     "email" : "gajjargaurav@gmail.com"
-  }]
+  }],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ifraixedes/gitup-mailer/issues"
