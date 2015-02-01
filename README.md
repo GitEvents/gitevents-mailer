@@ -20,10 +20,10 @@ To contribute to discuss the specification and APIs, go to the specific issue
 
 - Implement a core without lock in any specific email provider nor template library which fulfil [gitevents](https://github.com/GitEvents/gitevents) needs.
 - Send mass emails to subscribers (e.g. newsletters).
-- Support different template engines, we call them renders.
+- Support different template engines, we call them renderers.
 - Support different email providers, we call them mailers; each provider must transform option parameters to the expected format and passing its expected parameters.
 - Only offer global and generic email options; any information in the content of the email has to be set in the template with a variable, although they are recommended for example to render on any client or to reduce to get capture by the spam filter, they don't have to be in the modules, that task relies in the person who build the template, not in this module. For this reason the module will be pluggable for:
-  - Renders
+  - Renderers
   - Mailers
 - Possibility to use features offered by several providers, for example, email addresses list of the subscribers, etc.
 - Keep simple and modular.
@@ -66,7 +66,7 @@ Send method may contain some parameters that they aren't often used, however we 
 
 ## Renderer API plugin
 
-Any __render__ plugin module must export a function which must receive the next parameters:
+Any __renderer__ plugin module must export a function which must receive the next parameters:
 
 1. `htmlTemplate {String}`: A string with the HTML version of the template to render.
 2. `textTemplate {String}`: A string with the plain text version of the template to render.
