@@ -2,7 +2,7 @@
 
 Mailer plugin for [gitevents](https://github.com/GitEvents/gitevents)
 
-Clarifications this document use "we" as a community, however so far, sometime "we" may mean one person, two people or several people, then bear in mind that "we", in the time being, does not mean [GitEvents organisation][https://github.com/GitEvents] which is discussing several aspects and some of them are pushed by one of the members as a start point of a discussion.
+Clarifications this document use "we" as a community, however so far, sometime "we" may mean one person, two people or several people, then bear in mind that "we", in the time being, does not mean [GitEvents organisation](https://github.com/GitEvents) which is discussing several aspects and some of them are pushed by one of the members as a start point of a discussion.
 
 __NOTE__: This module is very early stage of development. This README contains several sections which express what it should be, however we encourage people who may interested in [gitevents](https://github.com/GitEvents/gitevents) project to contribute to define the specification, the module's API, etc.
 
