@@ -1,26 +1,27 @@
 {
-  "name": "gitup-mailer",
+  "name": "gitevents-mailer",
   "version": "0.0.1",
-  "description": "a mailer module for gitup",
+  "description": "email manager plugin for gitevents service",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ifraixedes/gitup-mailer.git"
+    "url": "https://github.com/gitevents/gitevents-mailer"
   },
   "keywords": [
-    "gitup-mailer"
+    "mailer",
+    "gitevents"
   ],
-  "author": "Ivan Fraixedes <ivan@fraixed.es> (http://ivan.fraixed.es",
-  "contributors": [{ 
+  "author": "Ivan Fraixedes <ivan@fraixed.es> (http://ivan.fraixed.es)",
+  "contributors": [{
     "name" : "Gajjar Gaurav",
     "email" : "gajjargaurav@gmail.com"
-  }]
+  }],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ifraixedes/gitup-mailer/issues"
+    "url": "https://github.com/gitevents/gitevents-mailer/issues"
   },
-  "homepage": "https://github.com/ifraixedes/gitup-mailer"
+  "homepage": "https://github.com/gitevent/gitevents-mailer"
 }
