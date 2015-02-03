@@ -4,7 +4,8 @@
   "description": "a mailer module for gitup",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint lib/*.js || true"
   },
   "repository": {
     "type": "git",
@@ -14,13 +15,19 @@
     "gitup-mailer"
   ],
   "author": "Ivan Fraixedes <ivan@fraixed.es> (http://ivan.fraixed.es",
-  "contributors": [{
-    "name" : "Gajjar Gaurav",
-    "email" : "gajjargaurav@gmail.com"
-  }],
+  "contributors": [
+    {
+      "name": "Gajjar Gaurav",
+      "email": "gajjargaurav@gmail.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ifraixedes/gitup-mailer/issues"
   },
-  "homepage": "https://github.com/ifraixedes/gitup-mailer"
+  "homepage": "https://github.com/ifraixedes/gitup-mailer",
+  "devDependencies": {
+    "eslint": "^0.13.0"
+  },
+  "dependencies": {}
 }
