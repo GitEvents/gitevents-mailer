@@ -40,12 +40,13 @@ The exported object is a setup mailer that allows to send emails with the base c
 
 This plugin return the object with one only method, `send` which must receive 3 arguments:
   * `{Object} to`: this parameter will be passed straightaway to [provider.send](#provider-api-plugin)
+  * `{Object} data`: this parameter will be passed straightaway to an instance of [renderer](#renderer-api-plugin) (the function returned)
+  * `done`: Node callback function convention.
 
 For this module we've thought that options object should have as required options:
 * `provider`: The provider module which implement the [Provider API plugin](#provider-api-plugin)
 * `renderer`: The renderer module which implement the [Renderer API plugin](#renderer-api-plugin)
 * `sendParams`: An object with all the required and optional parameters that `provider.send` require and that only have to be passed ones, they are: `from`, `cc`, `bcc` and `options`, if they are optional then they don't need to be provided, see them in [Provider API plugin](#provider-api-plugin)
-* `done`: Node callback function convention.
 
 
 ## Provider API plugin
