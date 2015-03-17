@@ -1,0 +1,22 @@
+{
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "quotes": [2, "single", "avoidi-scape"],
+    "no-use-before-define": [2, "nofunc"],
+    "no-multiple-empty-lines": [2, {"max": 1}],
+    "no-nested-ternary": 2,
+    "no-space-before-semi": 2,
+    "no-trailing-spaces": 2,
+    "no-irregular-whitespace": 2,
+    "use-isnan": 2,
+    "valid-jsdoc": [2, {
+      "prefer": {
+        "return": "returns"
+      },
+      "requireReturn": false
+    }],
+    "max-len": [1, 120, 4]
+  }
+}
