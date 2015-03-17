@@ -86,7 +86,7 @@ Any __renderer__ plugin module must export a function which must receive the nex
   Although __two templates types have to pass as a parameter we may only require one__, then one of them can be null, obviously the result will only contain the provided one.
   <sup>*1</sup> it can be the string with the template content, a file path, an URL or whatever the renderer supports.
 
-  And it has to __return__ a `function` which only accepts one parameter:
+  And it has to __return__ a `function` which accepts two parameter:
 
   1. `data {Object}`: An object which contains the template variable values to use; if one of them is not provided and it has been defined in `locals` then its values will be used. If no data, then `null`.
   2. `done {Function}`: Node callback function convention, which if succeeds return an object with the next properties:
